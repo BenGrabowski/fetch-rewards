@@ -16,9 +16,9 @@ class List extends Component {
         const sortedItems = this.props.items.sort(compareValues);        
 
         return (
-            <div>
-                <h3>List {this.props.id}</h3>
-                <ul>
+            <div className="col-sm-3">
+                <h3 className="d-flex justify-content-center">List {this.props.id}</h3>
+                <ul className="list-group">
                     {sortedItems.map(item => {
                         return <Item key={item.id} name={item.name} />
                     })}
