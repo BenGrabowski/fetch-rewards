@@ -1,28 +1,25 @@
 import React, { Component } from 'react';
+import STORE from './STORE';
+import List from './List';
 
 class App extends Component {
+  
   state = {
-      list: undefined
+    list1: STORE.filter(item => item.listId === 1 && item.name),
+    list2: STORE.filter(item => item.listId === 2 && item.name),
+    list3: STORE.filter(item => item.listId === 3 && item.name),
+    list4: STORE.filter(item => item.listId === 4 && item.name)
   };
-
-  componentDidMount() {
-      fetch('https://fetch-hiring.s3.amazonaws.com/hiring.json',
-        {
-            method: 'GET',
-            // mode: 'no-cors'
-        }
-      )
-      .then(res => res.json())
-      .then(data => {
-          this.setState({ list: data});
-      })
-      .catch(error => console.log(error));
-  }
   
   render() {
+    const { list1, list2, list3, list4 } = this.state;
+
     return (
         <main className='App'>
-          <h1>Hello World</h1>
+          <List id={1} items={list1} />
+          <List id={2} items={list2} />
+          <List id={3} items={list3} />
+          <List id={4} items={list4} />
         </main>
       );    
   }
