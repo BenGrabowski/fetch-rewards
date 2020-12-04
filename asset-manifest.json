@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fetch-rewards/static/css/main.dae71fde.chunk.css",
-    "main.js": "/fetch-rewards/static/js/main.a85e4de7.chunk.js",
-    "main.js.map": "/fetch-rewards/static/js/main.a85e4de7.chunk.js.map",
+    "main.js": "/fetch-rewards/static/js/main.f2e22ea7.chunk.js",
+    "main.js.map": "/fetch-rewards/static/js/main.f2e22ea7.chunk.js.map",
     "runtime-main.js": "/fetch-rewards/static/js/runtime-main.12091d59.js",
     "runtime-main.js.map": "/fetch-rewards/static/js/runtime-main.12091d59.js.map",
     "static/css/2.1a02f21c.chunk.css": "/fetch-rewards/static/css/2.1a02f21c.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.9c6dc0a5.chunk.js",
     "static/css/main.dae71fde.chunk.css",
-    "static/js/main.a85e4de7.chunk.js"
+    "static/js/main.f2e22ea7.chunk.js"
   ]
 }
