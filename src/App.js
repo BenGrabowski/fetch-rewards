@@ -17,9 +17,9 @@ class App extends Component {
 
     return (
         <div className="container-fluid">
-            <nav className="row">
-                <img src={logo} alt="logo" className="logo col-sm-4"/>
-                <h2 className= "text-center col-sm-8">Product List</h2>
+            <nav className="navbar navbar-dark bg-dark fixed-top">
+                <a className="navbar-brand" href="#"><img src={logo} alt="logo" className="logo" /></a>
+                <h2 className="text-white">Product List</h2>
             </nav>
             <main className='App'>
                 <div className="row">
