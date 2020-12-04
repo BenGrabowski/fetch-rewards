@@ -6,6 +6,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #300C39;
+}
+
+html {
+    background: #300C39;
 }
 
 code {
@@ -25,21 +30,13 @@ code {
     border-radius: 10px;
 }
 
-/* nav {
-    margin: 25px 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: white;
-    position: fixed;
-} */
-
 h2 {
     font-family: 'Shrikhand', cursive;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
+    color: #FBA818;
 }
 
 .row {
